@@ -1,0 +1,12 @@
+Steps for upstart script
+1. cd /etc/init/
+2. copy this customnode.conf in that folder
+3. cd /etc/init.d/
+4. ln -s /lib/init/customnode customnode
+
+
+To start/stop/status the nodejs, issure the below command
+1. start customnode
+2. stop customnode
+3. status customnode
+
